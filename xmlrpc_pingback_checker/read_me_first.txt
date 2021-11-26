@@ -16,6 +16,8 @@ We get one file as output with name output.html. We can use any browser to open 
 
 So what the script does it takes the domains mentioned in the wordpress_websites.txt file one by one and makes a POST request to /xmlrpc.php invoking pingback.ping method. (Resources to read more on this can be found under refernces section)
 
+So after running the script check your server for any pingbacks. If you have any then you have a bug to report. 
+
 Some reports:
 https://hackerone.com/reports/752073
 https://hackerone.com/reports/96294
